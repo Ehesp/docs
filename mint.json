@@ -5,6 +5,7 @@
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
+  "theme": "quill",
   "favicon": "/favicon.svg",
   "colors": {
     "primary": "#0D9373",
@@ -63,9 +64,22 @@
         "essentials/markdown",
         "essentials/code",
         "essentials/images",
+        {
+      "group": "Essentials",
+      "pages": [
+        "essentials/markdown",
+        "essentials/code",
+        "essentials/images",
         "essentials/settings",
         "essentials/navigation",
         "essentials/reusable-snippets"
+        
+      ]
+    },
+        "essentials/settings",
+        "essentials/navigation",
+        "essentials/reusable-snippets"
+        
       ]
     },
     {
